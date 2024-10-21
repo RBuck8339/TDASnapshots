@@ -503,3 +503,12 @@ if __name__ == "__main__":
             auc_scores.append(LSTM_classifier(np_data_raw, np_labels, "Raw_not_normalized", network))
             
 '''
+
+
+'''
+My Flow:
+    - data = read_seq_data(name)
+    - raw_data_arr, np_labels = train_test_split_sequential(data)
+    - normalized_raw_data_arr = Probably normalize the data for the model (raw_data_arr)
+    - LSTM_classifier(normalized_raw_data_arr, np_labels, str, network)
+'''
