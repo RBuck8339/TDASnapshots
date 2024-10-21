@@ -12,6 +12,10 @@ import datetime as dt
 from node2vec import Node2Vec  # Might use, uncertain as of now
 from collections import defaultdict
 
+# Projections
+import umap 
+f
+
 
 class MyNetworkParser:
     # Directories
